@@ -8,8 +8,8 @@
     - Click Browse...
   - Open PowerShell
       - Run this command, using your Lethal Company installation directory
-          - `<path to script>\install-mods.ps1 -gameInstall "<path to game installation>"
-          - Example: `C:\tmp\install-mods.ps1 -gameInstall "C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\BepInEx\plugins"`
+          - `<path to script>\install-mods.ps1 -gameInstall "<path to game installation>"`
+          - Example: `C:\tmp\install-mods.ps1 -gameInstall "C:\Program Files (x86)\Steam\steamapps\common\Lethal Company"`
       - If you get errors involving permissions when creating files, run PowerShell in Administrator mode
       - If you get errors about running PowerShell scripts at all, run `Set-ExecutionPolicy RemoteSigned`
         - [Source](https://www.sharepointdiary.com/2014/03/fix-for-powershell-script-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system.html)
