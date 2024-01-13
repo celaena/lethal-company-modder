@@ -11,7 +11,7 @@
           - `<path to script>\install-mods.ps1 -gameInstall "<path to game installation>"`
           - Example: `C:\tmp\install-mods.ps1 -gameInstall "C:\Program Files (x86)\Steam\steamapps\common\Lethal Company"`
       - If you get errors involving permissions when creating files, run PowerShell in Administrator mode
-      - If you get errors about running PowerShell scripts at all, run `Set-ExecutionPolicy RemoteSigned`
+      - If you get errors about running PowerShell scripts at all, run `Set-ExecutionPolicy Unrestricted`
         - [Source](https://www.sharepointdiary.com/2014/03/fix-for-powershell-script-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system.html)
   - Check that the files in your Lethal Company installation directory have been updated
  
@@ -21,3 +21,4 @@
 - LC_API 3.3.2
 - MoreCompany 1.7.4
 - More_Suits 1.4.1
+- MaskedEnemyOverhaul 2.4.1

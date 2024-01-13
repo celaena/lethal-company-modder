@@ -50,4 +50,9 @@ Unpack-Mod -url "https://thunderstore.io/package/download/x753/More_Suits/1.4.1/
 Copy-Item "$tmp\mod\BepInEx\plugins" -Destination "$gameInstall\BepInEx\" -Recurse -Force
 Delete-Temp-Mod-Files
 
+echo "Processing MaskedEnemyOverhaul..."
+Unpack-Mod -url "https://thunderstore.io/package/download/HomelessGinger/MaskedEnemyOverhaul/2.4.1/"
+Copy-Item "$tmp\mod\MaskedEnemyRework.dll" -Destination "$gameInstall\BepInEx\plugins" -Force
+Delete-Temp-Mod-Files
+
 Remove-Item -Path $tmp
